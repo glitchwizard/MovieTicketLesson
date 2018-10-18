@@ -9,6 +9,44 @@
     <title>Movie Theater Tickets</title>
   </head>
   <body>
+    <div ="container">
+      <div class="row">
+        <form>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label>Movie</label>
+              <select class="form-control" id="movie-name">
+                <option value="sleeping-beauty">Sleeping Beauty</option>
+                <option value="solo">Solo: A Star Wars Story</option>
+                <option value="shrek">Shrek</option>
+                <option value="deadpool">Deadpool</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Age</label>
+              <input type="number" id="age">
+            </div>
+            <div class="form-group">
+              <label>Showtime:</label>
+              <select class="form-control" id="showtime">
+                <option value="1000">10:00 AM</option>
+                <option value="1315">1:15 PM</option>
+                <option value="1720">5:20 PM</option>
+                <option value="2030">8:30 PM</option>
+              </select>
+            </div>
+            <p></p>
+            <button type="submit" name="SubmitMovie" id="MovieSubmit">Submit</button>
+          </div>
+          <div class="col-md-6">
 
+          </div>
+
+        </form>
+      </div>
+      <div class="row">
+        <p id="price-output"></p>
+      </div>
+    </div>
   </body>
 </html>
